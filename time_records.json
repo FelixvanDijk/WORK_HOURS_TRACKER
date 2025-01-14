@@ -52,5 +52,11 @@
         "end_time": "2025-01-13T19:24:14",
         "elapsed": 6827.0,
         "comment": "Created a step-by-step guide on how users should install the program. Also tranferred from work to perosnal laptop to ensure that the code holds regardless of laptop."
+    },
+    {
+        "start_time": "2025-01-14T09:20:03.901609",
+        "end_time": "2025-01-14T10:29:05.526657",
+        "elapsed": 4099.330860614777,
+        "comment": "Fixed a bug, altered code to email to Melanie, pushed changed to git and now will move onto new perosnal AHV account finally"
     }
 ]
