@@ -1,0 +1,56 @@
+[
+    {
+        "start_time": "2025-01-02T12:32:54",
+        "end_time": "2025-01-02T16:49:37",
+        "elapsed": 15403.0,
+        "comment": "Set Up new work laptop with existing code, meeting with melanie, explored possibility of using a CSV file/database for holding recording dates, altered code ready for EXCEL input once i have an account, created a plan for NMR auto"
+    },
+    {
+        "start_time": "2025-01-03T14:21:03",
+        "end_time": "2025-01-03T17:23:09",
+        "elapsed": 10926.0,
+        "comment": "Used personl laptop test if excel date compariosn rather than email is possible, got a mock version working, also updated the Chromedriver to (hopefully) make it work out of the box. Also explored using GitHub for transfer of files from work and private laptop for instnaces such as this where i still dont have a username or password"
+    },
+    {
+        "start_time": "2025-01-06T15:31:50",
+        "end_time": "2025-01-06T18:35:39",
+        "elapsed": 11029.0,
+        "comment": "NMR auto can now search through multiple farms in the database and dowload CDL and LatestRecording data for each. Partial database constructed, yet to complete. Next step is to dowload respective files based solely off if date in database is out of date or not. Spoke to melanie regarding progress and next steps. Also was told tomorrow i get my own AHV account so today i worked from personal laptop and personal acoount again."
+    },
+    {
+        "start_time": "2025-01-07T12:07:52",
+        "end_time": "2025-01-07T17:11:08",
+        "elapsed": 18196.0,
+        "comment": "Made further progress on NMR auto, it can now dowload based on comparison of dates (which was the hardesr part yet), also created a config.json for secure and easy storage of file paths and login info, created a README.md S.T. users can easily set it up to work on their own laptops. Created a video detailing setps of how to use. Next step is to create the full database and have it change file names and email them to the correct places. Also spoke with jan."
+    },
+    {
+        "start_time": "2025-01-08T08:19:30",
+        "end_time": "2025-01-08T10:10:35",
+        "elapsed": 6665.0,
+        "comment": "Spend the morning creating a script to pull all herd numbers and associated info into an excel file in order to not have to manually copy and paste each one. Then spend some time testing the code eeing if it works reliably with far longer datasets and timing how long it took, did some minor optimisation but that needs to be furthered, nexttask is to sort chnaging file type and auto emailing to ahv. going to take my car to the garage now"
+    },
+    {
+        "start_time": "2025-01-10T10:01:31",
+        "end_time": "2025-01-10T17:32:50",
+        "elapsed": 27079.0,
+        "comment": "Set up Git and Github on work laptop, cloned GitHub repository onto work laptop, worked to ensure that the code worked on the work laptop (It didnt) altered config file location,s crolling elemnts etc to ensure it worked. finally fixed it and moved onto emialing capabilities, including moving the CDL file to the correct folder then forcing it to run, bypassing smartscreen etc to get into .dat format, implemnet code to catch errors with CDL files becuase there was a lot them, implement code to send emails with most recnt files rather than dynamically changing names or checking names or having to dowload etc, did some basic stress testing. almsot done with NMR auto now"
+    },
+    {
+        "start_time": "2025-01-13T10:09:21",
+        "end_time": "2025-01-13T15:46:17",
+        "elapsed": 20216.0,
+        "comment": "Optimised the code, attempting to reduce runtime significantly, dabbled in a parallel processing approach where multiple windows are opened atonce and each read from a different point in the database. managed to reduce time byroughly 40% as it had increased significantly since adding CDL file type conversion features. Also fixed some minor bugs and did a lot of stress testing under many different scenarios e.g. when files with similar names already exisit, when user hanst deleted previous files, user hasnt cleared the CDL file etc."
+    },
+    {
+        "start_time": "2025-01-11T10:01:20",
+        "end_time": "2025-01-11T13:03:25",
+        "elapsed": 10925.0,
+        "comment": "Added run time exceptions to catch erros and neaten code rather than it just crash with an error in certain circumstances. though it may be useful as to not worry people who dont regularly code and ensure them that the code isnt broken."
+    },
+    {
+        "start_time": "2025-01-13T17:30:27",
+        "end_time": "2025-01-13T19:24:14",
+        "elapsed": 6827.0,
+        "comment": "Created a step-by-step guide on how users should install the program. Also tranferred from work to perosnal laptop to ensure that the code holds regardless of laptop."
+    }
+]
